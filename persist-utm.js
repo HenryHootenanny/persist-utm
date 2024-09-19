@@ -33,7 +33,7 @@
       new URLSearchParams(utmParams).toString(),
     ].join("?");
 
-    window.history.replaceState({ path: url.toString() }, "", url.toString());
+    window.history.replaceState({ path: url.toString() }, "", url);
   };
 
   if (utmParams.length) {
