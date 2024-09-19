@@ -1,6 +1,5 @@
+console.log("Persisting UTM parameters...");
 (function () {
-  console.log("Persisting UTM parameters...");
-
   // Function to get URL parameters
   function getUrlParams() {
     var params = {};
